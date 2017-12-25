@@ -44,7 +44,7 @@ scopes :'https://mail.google.com '+ 'https://www.googleapis.com/auth/gmail.modif
     },
      rateMatrix: function(){ 
 
-              var drivetimeTypes = { DOUBLEDRIVETIME:"Double", PORTALBACK:"Portal Back", ONEHOUR:"1 HOUR" } ;
+                var drivetimeTypes = { DOUBLEDRIVETIME:"Double", PORTALBACK:"Portal Back", ONEHOUR:"1 HOUR" } ;
               //Cali regions
                 var ratesMartinez = { region: "Martinez",firstAndLastDayRate: 135.30, himin:4, hourlyMin:2, radius:35, coords:{lat:32.0194, longitude:-122.1341}, rateByDay: [128.82, 122.69, 122.69, 122.69, 122.69, 128.82, 135.30],driveTimeType: "DDT"};
 
@@ -66,7 +66,6 @@ scopes :'https://mail.google.com '+ 'https://www.googleapis.com/auth/gmail.modif
 
                 var ratesSBAY = { region: "Los Angeles",firstAndLastDayRate: 135.30, himin:4, hourlyMin:2, radius:35, coords:{lat:34.0522, longitude:-118.2437}, rateByDay: [116.55, 110.42, 110.42, 110.42, 110.42, 116.55, 135.30],driveTimeType: "DDT"};
               
-console.log(self,"this::",this.drivetimeTypes);
                 //East Coast
                 var ratesBalt = { region: "Baltimore",firstAndLastDayRate: 114.99, hourlyMin:2, radius:35, coords:{lat:39.2904, lng:-76.6122}, rateByDay: [109.24, 103.49, 103.49, 103.49, 103.49, 103.49, 114.99], driveTimeType: drivetimeTypes.ONEHOUR }; //21222,25
 
@@ -79,8 +78,8 @@ console.log(self,"this::",this.drivetimeTypes);
                 var ratesTus = {region: "Tucson", coords:{lat:32.2217, longitude:-110.9265}, hourlyMin:2, radius:35, firstAndLastDayRate: 118.99, rateByDay: [113.04, 95.19, 95.19, 95.19, 95.19, 95.19, 118.99],driveTimeType: "1Hr"}; //85709
 
 
-    var ratesSeattle = {region: "Seattle", coords:{lat:47.6062, longitude:-122.3321}, hourlyMin:2, radius:35, firstAndLastDayRate: 114.99, rateByDay: [109.99, 104.99, 104.99, 104.99, 104.00, 109.99, 114.99],driveTimeType: "PB"}; //85709
-  var ratesTakoma = {region: "Takoma.TAC", coords:{lat:47.2529, longitude:-122.4443}, hourlyMin:2, radius:35, firstAndLastDayRate: 114.99, rateByDay: [109.99, 104.99, 104.99, 104.99, 104.00, 109.99, 114.99],driveTimeType: "PB"}; //85709
+                var ratesSeattle = {region: "Seattle", coords:{lat:47.6062, longitude:-122.3321}, hourlyMin:2, radius:35, firstAndLastDayRate: 114.99, rateByDay: [109.99, 104.99, 104.99, 104.99, 104.00, 109.99, 114.99],driveTimeType: "PB"}; //85709
+                var ratesTakoma = {region: "Takoma.TAC", coords:{lat:47.2529, longitude:-122.4443}, hourlyMin:2, radius:35, firstAndLastDayRate: 114.99, rateByDay: [109.99, 104.99, 104.99, 104.99, 104.00, 109.99, 114.99],driveTimeType: "PB"}; //85709
 
                 var stateRatesWA = {state: "WA", regions: [ratesSeattle, ratesTakoma]};
                 var stateRatesAZ = {state: "AZ", regions: [ratesPhoenix, ratesTus]};

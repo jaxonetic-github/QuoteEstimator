@@ -8,7 +8,7 @@ export default {}
 <template>
 <v-app>
   <f7-page>
-    <f7-navbar title="About" back-link="Back" sliding></f7-navbar>
+    <f7-navbar title="Dispatch" back-link="Back" sliding></f7-navbar>
     <f7-block inner>
 
   <div class="hello">
@@ -24,13 +24,15 @@ export default {}
 
 <article>                      
 
-      <p id="rate-explanations">
-      The day of the week affects your rate. In some areas, moving on a weekday can be up to $20 dollars cheaper than a Saturday rate which is always the highest rate. Monday through Thursday is always the cheapest rate unless it falls on the first
-      or last day of the month. Friday and Sunday rates tend to be the midrange rates.The first and the last days of the month are always the highest rate. In some areas, there is no change in price. That's the way the starving game is played.
-      <!--     <button v-on:click="addQuote()" class="btn btn-primary btn-sm">Add Quote</button>
- <button v-on:click="resetForm()" class="btn btn-primary btn-sm">Reset</button>-->
+      <p id="dispatch">Contractors online<!--     <button v-on:click="addQuote()" class="btn btn-primary btn-sm">Add Quote</button>
+<button v-on:click="resetForm()" class="btn btn-primary btn-sm">Reset</button>-->
     </p>
 
+<ol>
+ <li>You
+ <li>Demo Contractor1</li>
+ <li>Demo Contractor2</li>
+</ol>
    
  <!--   <p><input id="send-email" type="text" v-model="email" placeholder="E-mail for Confirmation" />
       <button id="send-confirmation" class="btn btn-primary btn-sm">Send Confirmation</button>.

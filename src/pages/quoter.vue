@@ -93,6 +93,9 @@ import AppConst from '../appConst.js'
 
 export default {
   name: 'RangeQuoter',
+  description: "Cost Approximater For A Moving Company.  Todo: create separate map component",
+  token: `<range-quoter >B</range-quoter>`,
+
    components: {
     QuoteEstimator,ShortHaulEstimator,IntraStateEstimator
   },

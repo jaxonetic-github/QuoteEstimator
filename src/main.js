@@ -22,8 +22,7 @@ import AppStyles from './css/app.css'
 import Routes from './routes.js'
 
 // Import App Component
-import App from './pages/quoter.vue'
-
+import App from './pages/QuoterDocumentation.vue'
 
 
 // Init F7 Vue Plugin
